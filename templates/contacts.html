@@ -1,0 +1,47 @@
+{% load static %}
+<html>
+    <head>
+        <title>contacts</title>
+        <link rel="stylesheet" href="{% static 'css/contacts.css'%}"
+    </head>
+    <body>
+        <div id="dashboard">
+            <div id="dashboard-left">
+                <a id="a1" href="{% url 'index' %}">Home</a>
+                <a id="a1" href="{% url 'home' %}">Education</a>
+                <a id="a1" href="{% url 'about' %}">About</a>
+                <a id="a1" href="{% url 'contacts' %}">Contacts</a>
+            </div>
+            <div id="dashboard-right">
+                <a  id="a" href="https://www.linkedin.com/in/vinay-kumar-batta-697410251"><img  src="{% static 'images/linkedin.png' %}"></a>
+                <a  id="a" href="https://github.com/Vinaykumar222002"><img src="{% static 'images/github.png' %}"></a>
+                <a  id="a" href="https://x.com/Vinaykumar18_25"><img src="{% static 'images/twitter.png' %}"></a>
+                <a  id="a" href="https://www.instagram.com/vinay.kumar_18/?__pwa=1"><img src="{% static 'images/instagram.png' %}" ></a>
+            </div>
+        </div>    
+            
+            
+        <h1>
+            Contact Details :
+        </h1>
+        <div id="center">
+            <div id="right">
+                <ul >
+                    <li>Mail <img id='img' src="{% static 'images/python.png' %}"/> : vinaykumarbatta@gmail.com</li>
+                    <li>Mobile Number <img id='img' src="{% static 'images/django.png' %}"/> : 9381862884</li>
+                    <li>linkedin <img id='img' src="{% static 'images/linkedin.png' %}"/> : 
+                        <a  id="alink" href="https://www.linkedin.com/in/vinay-kumar-batta-697410251">www.linkedin.com/in/
+                            vinay-kumar-batta-697410251</a></li>
+                    <li>Github <img id='img' src="{% static 'images/github.png' %}"/> :
+                        <a  id="alink" href="https://github.com/Vinaykumar222002">https://github.com/Vinaykumar222002</a></li>
+                    <li>Leet Code <img id='img' src="{% static 'images/css.png' %}"/> :
+                        <a  id="alink" href="https://leetcode.com/u/vinay_kumar_batta/">https://leetcode.com/u/vinay_kumar_batta/</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p>Copyright © 2022 Vinay Kumar Batta</p>
+        </div>
+    </body>
+</html>

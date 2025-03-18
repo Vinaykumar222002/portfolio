@@ -1,0 +1,135 @@
+body
+{
+    padding:0;
+    margin: 0;
+    background-image:conic-gradient( rgb(13, 191, 102),rgba(0, 0, 0, 0.457));
+}
+/* dashboard */
+
+#dashboard {
+    display: flex;
+    background-color: black;
+}
+
+#dashboard-left
+{   
+    width:80%;
+    height:90px;
+    margin-top:30px;
+}
+
+#dashboard-right {
+    width:30%;
+    height:90px;
+    padding-left:50px;
+    margin-top:40px;
+}
+
+#a1 {
+    font-size:23px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    color:darkgoldenrod;
+    padding-top:30px;
+    display: inline-block;
+}
+
+#a1:hover {
+    color:white;
+}
+
+#a {
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px chartreuse;
+    margin-right:30px;
+    
+}
+
+
+#a:hover {
+    background-color:grey;
+    color: black;
+    transform: perspective(1000px) rotateX(180deg);
+    opacity: 1;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+
+/*end dashboard */
+
+
+#h1
+{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:black;
+    text-shadow:3px 3px 10px black;
+    margin-top: 50px;
+}
+
+#img
+{
+    width:80%;
+    height:600px;
+    margin-top:40px;
+    margin-bottom: 30px;
+    box-shadow: 3px 3px 10px black;
+    border-radius:10px;
+}
+
+#p
+{
+    text-align: center;
+    font-size:24px;
+    font-style: oblique;
+    font-weight: bold;
+    color:black;
+    margin-top: 50px;
+    padding-bottom:40px;
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#project
+{
+    width:80%;
+    height:auto;
+    margin-left:130px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px black;
+    background-color: antiquewhite;
+}
+
+#git-link
+{
+    text-align: center;
+    text-decoration: none;
+    color:antiquewhite;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    margin-top:20px;
+    margin-bottom:30px;
+    padding: 10px 20px 10px 20px;
+    display: inline-block;
+    background-color: black;
+    border:5px solid white;
+    border-radius:25px;
+}
+
+#git-link:hover
+{
+    color:black;
+    background-color:antiquewhite;
+    border:5px solid black;
+}
+

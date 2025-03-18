@@ -1,0 +1,92 @@
+{% load static %}
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="{% static 'css/home.css' %}">
+    </head>
+    <body>
+        <div id="dashboard">
+            <div id="dashboard-left">
+                <a id="a1" href="{% url 'index' %}">Home</a>
+                <a id="a1" href="{% url 'home' %}">Education</a>
+                <a id="a1" href="{% url 'about' %}">About</a>
+                <a id="a1" href="{% url 'contacts' %}">Contacts</a>
+            </div>
+            <div id="dashboard-right">
+                <a  id="a" href="https://www.linkedin.com/in/vinay-kumar-batta-697410251"><img  src="{% static 'images/linkedin.png' %}"></a>
+                <a  id="a" href="https://github.com/Vinaykumar222002"><img src="{% static 'images/github.png' %}"></a>
+                <a  id="a" href="https://x.com/Vinaykumar18_25"><img src="{% static 'images/twitter.png' %}"></a>
+                <a  id="a" href="https://www.instagram.com/vinay.kumar_18/?__pwa=1"><img src="{% static 'images/instagram.png' %}" ></a>
+            </div>
+        </div>    
+
+
+        <div id="center">
+            <div id="left">
+                <h1>INTRODUCTION:</h1>
+            </div>
+            <div id="right">
+                <p  id="p">"Hi, I'm Vinay kumar Batta, I recently completed my Btech in the stream of<br><br>
+                    Electronics and Communication Engineering (ECE) it gives me a unique problem-<br><br> 
+                    solving approach,allowing me to bridge the gap between hardware and software <br><br>
+                    seamlessly. Passionate about developing new web applications in real world and  <br><br>
+                    continuously learning new technologies to enhance my skills.
+                </p>
+            </div>
+        </div>
+
+
+        <div id="center">
+            <div id="right">
+                <ul >
+                    <li>Python <img id='img' src="{% static 'images/python.png' %}"/></li>
+                    <li>Django <img id='img' src="{% static 'images/django.png' %}"/></li>
+                    <li>MySQL <img id='img' src="{% static 'images/sql.png' %}"/></li>
+                    <li>HTML <img id='img' src="{% static 'images/html.png' %}"/></li>
+                    <li>CSS <img  id='img' src="{% static 'images/css.png' %}"/></li>
+                    <li>JavaScript <img id='img' src="{% static 'images/js.png' %}"/></li>
+                </ul>
+            </div>
+            <div id="left">
+                <h1>TECHNICAL SKILLS:</h1>
+            </div>
+        </div>
+
+
+        <div id="center">
+            <div id="left">
+                <h1>ACADEMICS:</h1>
+            </div>
+            <div id="right">
+                <h2> >>> Bachelor of Technology (B. Tech):</h2>
+                <p id="p1">> Electronics and Communication Engineering (ECE)<br><br>
+                    > 2020-2024<br><br>
+                    > N.B.K.R institute of science and technology<br><br>
+                    > 8.02 CGPA</p>
+                <h2> >>> Higher Secondary Education (12th):</h2>
+                <p id="p2">> Intermediate Board<br><br>
+                           > 2018-2020</p>
+                <h2> >>> Secondary Education (10th):</h2>
+                <p id="p3">> State Board<br><br>
+                           > 2017-2018</p>
+            </div>
+        </div>
+        <div id="center">
+            <div id="right">
+                <p id="p4">
+                    Results-driven Full-Stack Developer skilled in Python,Django, and SQL,<br><br>
+                    passionate about building scalable web applications and optimizing<br><br> 
+                    database performance. Committed to writing clean, efficient code and <br><br> 
+                    continuously learning emerging technologies.<br><br>
+                </p>
+            </div>
+            <div id="left">
+                <h1>CAREER OBJECTIVE:</h1>
+            </div>
+        </div>
+
+        <div id="footer">
+            <p>Copyright © 2025 Vinay Kumar Batta</p>
+        </div>
+    </body>
+</html>

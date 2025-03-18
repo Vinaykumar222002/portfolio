@@ -21,11 +21,10 @@ from contacts import views as v2
 from home import views as v3
 from about import views as v4
 from projects import views as v5
-from certifications import views as v6
+
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',v1.index,name='index'),
-    path('certificate/',v6.certifications,name='certifications'),
     path('contacts/',v2.contacts,name='contacts'),
     path('home/',v3.home,name='home'),
     path('about/',v4.about,name='about'),

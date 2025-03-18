@@ -42,7 +42,6 @@ INSTALLED_APPS = [
     'home',
     'projects',
     'index',
-    'certifications',
 ]
 
 MIDDLEWARE = [

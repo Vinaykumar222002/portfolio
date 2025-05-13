@@ -67,7 +67,7 @@ body {
 #content-left
 {
     width:75%;
-    height:580px;
+    height:602px;
     background-color: rgba(0, 0, 0, 0.762);
     color:darkgoldenrod;
 }
@@ -75,7 +75,7 @@ body {
 #content-right
 {
     width:35%;
-    height:580px;
+    height:602px;
     background-color: rgb(13, 191, 102);
 }
 
